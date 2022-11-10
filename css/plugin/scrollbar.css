@@ -1,0 +1,15 @@
+    ::-webkit-scrollbar {
+    width: 7px; /* Controls the overall width of the scrollbar */
+    margin-top: 0px; /* Controls the padding of the Scrollbar */
+    }
+    /* Track - This is the part that contains the bit you click and drag */
+    ::-webkit-scrollbar-track {
+    background: #3D4050; /* Sets the background to transparent, change to a Hex or RGB value if you would like */
+    border-radius: 3px;
+    }
+    /* Handle - This is the bit you actually click and drag */
+    ::-webkit-scrollbar-thumb {
+    background: #3E9CDC; /* Change the Hex value to change the scroll handle */
+    border-radius: 3px; /* Change the "px" to adjust the scroll handle's border radius*/
+    border: white 0px solid /* This controls whether the scroll handle has a border, right now it's set to a White, 1px Solid border, you can change these settings or remove this line altogether if you don't want a border */
+    }
